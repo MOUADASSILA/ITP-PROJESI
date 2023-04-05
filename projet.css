@@ -48,14 +48,15 @@ section{
     display: flex;
     align-items: center;
     background-color: rgb(27, 27, 27);
-    background: url(images/me.png) no-repeat;
+    /*background: url(images/me.png) no-repeat;
     background-size:cover;
     background-position: center;
     background-attachment: fixed;/*katkhali sora fblashta*/
 }
+*/
 
 .main h1 {
-    color: goldenrod;
+    color: rgb(228, 171, 27);
     font-size: 1.7em;
     font-weight:900;
 }
@@ -160,49 +161,6 @@ section{
 .cards{
     background-color:rgb(27, 27, 27);
 }
-
-
-/*.Mouad {
-    background-color: #2f2f2f;
-}
-.Mouad .content {
-    margin: 30px;
-}
-.Mouad-card{
-    background-color: white;
-    border: 3px solid white;
-    min-height: 14em;
-    width: 23em;
-    overflow: hidden;
-    border-radius: 20px;
-    margin: 20px;
-    transition: 0.7s ease;
-}
-.Mouad-card:hover{
-    transform: scale(1.1);
-}
-.Mouad-card:hover .project-image{
-    opacity: 0.9;
-}
-.Mouad-image img{
-    width: 100%;
-}
-.Mouad-info{
-    padding: 1em;
-}
-.Mouad-category{
-    font-size: 1em;
-    margin: 5px;
-    color: black;
-    font-weight: 300;
-}
-.Mouad-title{
-    display: flex;
-    justify-content: space-between;
-    text-transform: uppercase;
-    font-weight: 800;
-    margin-top: 10px; }*/
-
 
 
 .more-details{
