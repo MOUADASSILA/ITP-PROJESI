@@ -51,7 +51,7 @@ section{
     background: url(images/back.png) no-repeat;
     background-size:cover;
     background-position: center;
-    background-attachment: fixed;/*katkhali sora fblashta*/
+   /* background-attachment: fixed;/*katkhali sora fblashta*/
 }
 
 .main h1 {
@@ -118,7 +118,7 @@ section{
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 30px;
-    
+   
 }
 .content {
     
@@ -128,133 +128,107 @@ section{
     flex-wrap: wrap;
 }
 
-.card {
-    background-color: #d2e7a0;
-    width: 17em;
-    box-shadow: 0 5px 25px rgba(1 1 1 / 10);
-    border-radius: 20%;
-    padding: 10px;
-    margin: 20px;
-    transition: 0.7s ease;
-}
-.card:hover{
-    background-color:#fcbc68;
-    transform: scale(1.2);
-
-}
-.icon {
-    color:rgb(50, 42, 59);
-    font-size: 8em;
-    text-align: center;
-}
-.info {
-    text-align: center;
-}
-.info h3 {
-    color: rgb(102, 92, 3);
-    font-size: 1.2em;
-    font-weight: 800;
-    margin: 10px;
-
-}
-.cards{
-    background-color:rgb(27, 27, 27);
-}
-
-
-/*.Mouad {
-    background-color: #2f2f2f;
-}
-.Mouad .content {
-    margin: 30px;
-}
-.Mouad-card{
-    background-color: white;
-    border: 3px solid white;
-    min-height: 14em;
-    width: 23em;
-    overflow: hidden;
-    border-radius: 20px;
-    margin: 20px;
-    transition: 0.7s ease;
-}
-.Mouad-card:hover{
-    transform: scale(1.1);
-}
-.Mouad-card:hover .project-image{
-    opacity: 0.9;
-}
-.Mouad-image img{
+.mainSkl{
     width: 100%;
-}
-.Mouad-info{
-    padding: 1em;
-}
-.Mouad-category{
-    font-size: 1em;
-    margin: 5px;
-    color: black;
-    font-weight: 300;
-}
-.Mouad-title{
+    height: 100%;
+    
     display: flex;
-    justify-content: space-between;
-    text-transform: uppercase;
-    font-weight: 800;
-    margin-top: 10px; }*/
-
-
-
-.more-details{
-    text-decoration: none;
-    color: rgb(34, 8, 184);
+    align-items: center;
+    background-color: rgb(27, 27, 27);
+    /*background: url(images/skills.png) no-repeat;
+    background-size:cover;
+    background-position: center;
+    /*background-attachment: fixed;/*katkhali sora fblashta*/
 }
-.more-details:hover{
-    color:rgb(103, 2, 143) ;
-
+.Skills{
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    margin: 60px auto;
+    background-color: rgb(27, 27, 27);
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-.contact .icon{
-    font-size: 4.5em;
-    color: #1c1c88;
+.Skills li{
+    margin: 20px 0;
+    padding: 10px;
+    list-style: none;;
 }
-.contact .info h3 {
-    color: black;
+.Skills h1{
+    color: #FD6F27;
+    font-style: italic;
+    text-align: center; 
+    margin: 0 auto; 
+    width: fit-content; 
     
 }
-
-.contact .info p {
-    font-size: 0.9em;
-    font-weight: 1000;
-    
+.Skills h3{
+    color: aliceblue;
+    font-style: italic;
 }
-.contact .card{
-    background-color: #ebebd9;
-    width: 20em;
-    box-shadow: 0 5px 25px rgba(1 1 1 / 10);
-    border-radius: 50%;
-    padding: 65px;
-    margin: 30px;
-    transition: 0.7s ease;
-}
-.contact .card:hover{
-    background-color:#fcbc68;
-    transform: scale(1.15);
 
-    }
-    .contact .info h3{
-        color: #883004;
-        font-size: 1.5em;
-        font-style: italic;
-        font-weight: 900;
-    }
-    .contact .info p{
-        color: #302a2b;
-        font-size: 1em;
-        font-style:oblique;
-        font-weight: 1500;
-        
-    }
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(255, 255, 255, 0.25), 0 10px 10px rgba(255, 253, 253, 0.22);
+    transition: 0.7s;
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgb(218, 165, 32)0%, rgba(252, 103, 103, 1)100%);
+}
+.Html{
+    width: 90%;
+    animation: Html 3s;
+}
+.Css{
+    width: 75%;
+    animation: Css 3s;
+}
+.Cpp{
+    width: 80%;
+    animation: Cpp 3s;
+}
+.Javascript{
+    width: 55%;
+    animation: Javascript 3s;
+}
+.Java{
+    width: 45%;
+    animation: Java 3s;
+}
+
+.Communication{
+    width: 100%;
+    animation: Html 3s;
+}
+.Teamwork{
+    width: 80%;
+    animation: Css 3s;
+}
+.Creativity{
+    width: 65%;
+    animation: Cpp 3s;
+}
+.ProjectManagement{
+    width: 90%;
+    animation: Javascript 3s;
+}
+.ProblemSolving{
+    width: 85%;
+    animation: Java 3s;
+}
+
 
 footer{
     background-color:  rgb(27, 27, 27);
