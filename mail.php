@@ -12,7 +12,64 @@ $recipient = "assilamouad@gmail.com" ;
 mail($recipient. $subject. $message. $mailheader)
 or die ("error!");
 
-echo"message send!";
+echo'
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-vA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="projet.css">
+    <title>Mouad Assila ITP</title>
+    <link href="images/fav1.png" rel="icon">
+   
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        text-align: center;
+        background: rgb(27, 27, 27);
+    }
+    
+    h1{
+        font-size: 59px;
+        color: #ec570c;
+        font-weight: 600;
+        padding-bottom: 20px;
+    }
+    p{
+        color: antiquewhite;
+    }
+    a{
+        color: #FD6F27;
+        font-style: italic;
+
+    }
+    a:hover{
+        color: #ec570c;
+    }
+</style>
+<body>
+    
+    <div class="Contact2">
+        <h1> Thank you for contacting me!</h1> 
+        <br>
+         <h1> I will get back to you as soon as possible  ;&#41</h1>
+        
+        <p class="back">Go back to the <a href="index.html">homepage</a></p>
+
+    </div>
+   
+</body>
+</html>';
 
 
 
