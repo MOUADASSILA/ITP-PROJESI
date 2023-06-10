@@ -231,9 +231,31 @@ section{
 
 
 
+.Contact{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgb(27, 27, 27);
 
-  
+ }
+ .Contact h1{
+    color: #FD6F27;
+    font-style: italic;
+    text-align: center; 
+    margin: 0 auto; 
+    width: fit-content; 
+    
+ }
+ .Contact p {
+    color: #ffff;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-style: italic;
 
+<<<<<<< HEAD
 .Contact {
     background-color: rgb(27, 27, 27);
     align-items: center;
@@ -241,6 +263,68 @@ section{
     width: 500px;
     margin: 60px auto ;
 }
+=======
+ }
+ .Container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 5px;
+
+ }
+ .Contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px 0;
+ }
+ .Contact input , textarea , label{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    color: antiquewhite;
+
+ }
+ .Contact input , textarea { 
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #FD6F27; 
+ }
+ .Contact input[type=submit]{
+    background-color: #ec570c;
+    padding: 15px 0 ;
+    color: rgb(243, 240, 237);
+    font-size: 18px;
+    border-bottom: none;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 22px;
+    font-weight: 600;
+    display: inline-block;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    transition: 0.6s ease;
+    width: 200px;
+    
+    
+ }
+
+ .Contact input[type=submit]:hover{
+    background-color:rgb(245, 107, 9);
+    transform: scale(1.2);
+    
+}
+.Contact input , textarea{
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+.Contact input:focus , textarea:focus{
+    color: #ec570c;
+    outline: 1px solid;
+
+}
+
+>>>>>>> 5565c9e2856a8b0f45d74e0541852c5bfc1684f7
 
 
 
