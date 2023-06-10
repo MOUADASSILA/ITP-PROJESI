@@ -255,15 +255,6 @@ section{
     margin-bottom: 30px;
     font-style: italic;
 
-<<<<<<< HEAD
-.Contact {
-    background-color: rgb(27, 27, 27);
-    align-items: center;
-    justify-content: center;
-    width: 500px;
-    margin: 60px auto ;
-}
-=======
  }
  .Container {
     max-width: 1320px;
@@ -324,7 +315,6 @@ section{
 
 }
 
->>>>>>> 5565c9e2856a8b0f45d74e0541852c5bfc1684f7
 
 
 
@@ -392,5 +382,3 @@ footer{
         font-size: 10px;
     }
 }
-
-    
