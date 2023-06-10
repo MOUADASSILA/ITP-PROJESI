@@ -234,7 +234,13 @@ section{
 
   
 
-
+.Contact {
+    background-color: rgb(27, 27, 27);
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    margin: 60px auto ;
+}
 
 
 
