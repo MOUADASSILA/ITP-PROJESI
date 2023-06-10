@@ -11,7 +11,7 @@ $recipient = "assilamouad@gmail.com" ;
 
 
 mail($recipient. $subject. $message. $mailheader)
-or die ("error!");
+
 
 echo'
 
