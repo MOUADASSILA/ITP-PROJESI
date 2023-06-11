@@ -8,7 +8,7 @@
     scroll-behavior: smooth;
 }
 header{
-    background-color: #FD6F27;
+    background-color: rgb(27, 27, 27);
     width: 100%;
     position: fixed;
     z-index: 999;
@@ -25,19 +25,30 @@ header{
     font-size: 1.4em;
     font-style: oblique;
     font-family: 'Courier New', Courier, monospace;
+    transition: 0.6s ease;
 }
+
+
+.logo:hover{
+    
+    transform: scale(1.1);
+}
+
+
 .navigation a{
-    color:rgb(46, 44, 44) ;
+    color:rgba(245, 250, 249, 0.993) ;
     text-decoration:none;
     text-transform: uppercase;
     font-weight: 800;
     font-size: 1em;
     font-style: italic;
     padding-left: 40px;
+    transition: 0.6s ease;
 }
 /*hover hia dal li kaykon fach kanhat l curseur*/
 .navigation a:hover{
-    color:#11e9e9 ;   
+    color:goldenrod;   
+    transform: scale(1.2);
 }
 section{
     padding: 100px 90px;
