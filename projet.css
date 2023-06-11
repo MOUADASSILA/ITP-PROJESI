@@ -472,6 +472,17 @@ footer{
     margin: 25px 0;
     padding: 10px;
 }
+footer{
+    
+    padding: 0.2em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title{
+    font-size: 1em;
+    font-weight: 1000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
 }
 
 @media (max-width:300px){
