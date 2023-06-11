@@ -62,7 +62,8 @@ section{
     background: url(images/back.png) no-repeat;
     background-size:cover;
     background-position: center;
-   /* background-attachment: fixed;/*katkhali sora fblashta*/
+    
+    /*background-attachment: fixed;/*katkhali sora fblashta*/
 }
 
 .main h1 {
@@ -183,7 +184,7 @@ section{
     background: #353b48;
     display: block;
     height: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.3);
+    border: 5px solid rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -305,9 +306,7 @@ section{
     letter-spacing: 1px;
     margin-bottom: 40px;
     transition: 0.6s ease;
-    width: 200px;
-    
-    
+    width: 200px;  
  }
 
  .Contact input[type=submit]:hover{
@@ -325,10 +324,6 @@ section{
     outline: 1px solid;
 
 }
-
-
-
-
 
 footer{
     background-color:  rgb(27, 27, 27);
@@ -376,6 +371,7 @@ footer{
         flex-direction: column;
         align-items: center;
     }
+    
 
 }
 @media (max-width:641px){
@@ -388,9 +384,103 @@ footer{
     .main-content h3{
         font-size: 1.4em;
     }
+   
+
+    
 }
+
+@media screen and (max-width: 480px) {
+    .Skills{
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        margin: 50px auto;
+        background-color: rgb(27, 27, 27);
+        padding: 5px;
+     }
+     .Container {
+        max-width: 270px;
+        margin: 40 auto;
+        padding: 5px;
+        
+    }
+    .Contact input[type=submit]{
+        
+        padding: 10px 0 ;
+        
+        font-size: 11px;
+        
+        margin-top: 10px;
+       
+        border-radius: 22px;
+        font-weight: 600; 
+        margin-bottom: 40px;   
+        width: 90px; 
+     }
+     .Contact form {
+        max-width: 700px;
+        margin: 0 auto;
+        text-align: left;
+        padding: 20px 0;
+     }
+     .Contact textarea{
+        height: 100px;
+        width: 100%;
+     }
+     .Contact form {
+        max-width: 300px;
+        padding: 20px 0;
+ }
+ .Contact h1{
+    font-size: 25px;
+    text-align: center; 
+    margin: 0 auto; 
+    width: fit-content; 
+    
+ }
+ .Contact p {
+    font-size: 1em;
+ }
+ .main{
+    background-attachment: fixed;/*katkhali sora fblashta*/
+}
+.Skills{
+    width: 160px;
+    height: 490px;
+    margin: 30px auto;
+    padding: 0px;
+}
+.Contact input , textarea{
+    font-size: 12px;
+    padding: 10px;   
+}
+.Skills h1{
+    
+   font-size: 21px;
+    
+}
+.Skills h3{
+   font-size: 12px;
+}
+.bar{
+    height: 15px;
+    border: 4.5px solid rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    
+}
+.Skills li{
+    margin: 25px 0;
+    padding: 10px;
+}
+}
+
 @media (max-width:300px){
     body{
-        font-size: 10px;
+        font-size: 10px;   
     }
-}
+    
+  }
+
+
+
+
