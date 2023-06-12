@@ -249,15 +249,22 @@ section{
     align-items: center;
     justify-content: center;
     display: flex;
-    background-color:#fff;
+    background-color:rgb(27, 27, 27);
+}
+.slide-container{
+    max-width: 1120px;
+    width: 100%;
+    background-color: #FD6F27;
+    padding: 40 px;
 }
 .slide-content{
     margin: 0 40px;
+    padding: 25px 0;
 }
 .card{
     width: 320px;
     border-radius: 25px;
-    background-color: aqua;
+    background-color: whitesmoke;
 }
 .image-content ,.card-content{
     padding: 10px 14px;
@@ -268,16 +275,19 @@ section{
 }
 .card-image{
     position: relative;
-    height: 150px;
-    width: 150px;
+    height: 130px;
+    width: 130px;
     border-radius: 50%;
-    background-color: azure;
-    padding: 3px;
+    background-color: #ec570c;
+    padding: 5px;
 }
 
 .image-content{
+    position: relative;
     row-gap: 5px;
+    
 }
+
 .card-image .card-img{
     height: 100%;
     width: 100%;
@@ -288,7 +298,7 @@ section{
 .name{
     font-size: 18px;
     font-weight: 500;
-    color: #f84904;
+    color: black;
 }
 .description{
     font-size: 14px;
@@ -309,12 +319,6 @@ section{
 .button:hover{
     background-color: aliceblue;
     transform: scale(1.1);
-}
-.overlay{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-
 }
 .Contact{
     margin: 0;
