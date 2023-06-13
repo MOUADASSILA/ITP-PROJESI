@@ -22,7 +22,7 @@ carousel.classList.remove("no-transition");
 //add event listeners for the arrow button to scroll the carousel left and right
 arrowBtns.forEach ( btn => {
     btn.addEventListener("click". () => {
-        carousel.scrollLeft += btn.id =="left" ? -firstCadrWidth : firstCadrWidth;
+        carousel.scrollLeft += btn.id =="left" ? -firstCadrWidth : firstCadrWidth ;
     });
 });
 const dragStart = (e) => {
@@ -58,5 +58,17 @@ const  infiniteScroll=() =>{
         carousel.scrollLeft = carousel.offsetWidth;
         carousel.classList.remove("no-transition");
     }
-    
+    clearTimeout(timeoutId);
+    if(!wrapper.matches(":hover")) isAutoPlay();
     }
+    const autoPlay = ()=> {
+        if(window.innerWidth < 800 || ! isAutoPlay) return;
+        timeoutId = setTimeout(() => carousel.scrollLeft += firstCadrWidth,2500);
+    }
+    autoPlay();
+    carousel.addEventListener("mousedown",dragStart);
+    carousel.addEventListener("mousemove",dragging);
+    document.addEventListener("mouseup",dragStop);
+    carousel.addEventListener("scroll",infiniteScroll);
+    wrapper.addEventListener("mouseenter",()=> clearTimeout(timeoutId));
+    wrapper.addEventListener("moveleave",autoPlay);
